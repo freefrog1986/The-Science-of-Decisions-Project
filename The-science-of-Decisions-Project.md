@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Statistics: The Science of Decisions Project
 
 ### Summary
@@ -8,10 +13,14 @@ Independent variable is the conditions of the test, which consist of two type of
 Dependent variable is the time spent by participants.
 
 ###2. Hypothesis and statistical test
-In the test each participant will go through and record a time from each condition, so we can treat those samples as dependent samples.
-The Null Hypothesis for this task is that the time spent has no change when test condition change from congruent to incongruent.
-The most reasonable Alternative Hypothesis is the time spent incresed due to test condition change from incongruent to incongruent.
-A one-tailed t-test in positive direction will be perfomed. If we reject the null hypotheses, conclution can be made that participants spent more time in incongruent words condition than congruent words condition.
+The Null Hypothesis for this task is that the congruent mean population time,  μ1 is equal to the incongruent mean population time μ2.
+H0: μ1 = μ2
+The Alternative Hypothesis is the incongruent mean population time μ2 is greater than μ1. this also implying that this is a lower-tailed test.
+H1: μ1< μ2
+A one-tailed dependent t-test in positive direction will be perfomed for the reason below:
+1. The sample size is small and the sample distribution is unclear, so we should use t-test.  
+2. Since each participant performed both conditions not all samples are independent, so we use dependent t-test.
+3. The Alternative Hypothesis suppose that μ2 is greater than μ1, so positive direction one-tailed t-test fit this case. 
 
 ###3. Descriptive statistics
 The mean time of congruent condition is 14.05113
@@ -20,9 +29,9 @@ The sd time of congruent condition is 3.559358
 The sd time of incongruent condition is 4.797057
 
 ###4. Distribution of the sample data
-![](/Users/freefrog/Studing/DataScience/The-Science-of-Decisions-Project/Congruent.png) 
+![](../Congruent.png) 
 The figure above shows the distribution of time spent in congruent condition, in which the blue line represents mean value of this sample.
-![](/Users/freefrog/Studing/DataScience/The-Science-of-Decisions-Project/Incongruent.png) 
+![](../Incongruent.png) 
 The figure above shows the distribution of time spent in incongruent condition, in which the blue line represents mean value of this sample. It seems that both sample are more like Normal Distribution, and mean value of time spent in incongruent condition is greater than that in congruent condition.
 
 ###5. Statistical test
