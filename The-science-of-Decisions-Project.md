@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Statistics: The Science of Decisions Project
 
@@ -29,10 +29,12 @@ The sd time of congruent condition is 3.559358
 The sd time of incongruent condition is 4.797057
 
 ###4. Distribution of the sample data
-![](../Congruent.png) 
-The figure above shows the distribution of time spent in congruent condition, in which the blue line represents mean value of this sample.
-![](../Incongruent.png) 
-The figure above shows the distribution of time spent in incongruent condition, in which the blue line represents mean value of this sample. It seems that both sample are more like Normal Distribution, and mean value of time spent in incongruent condition is greater than that in congruent condition.
+![](https://github.com/freefrog1986/The-Science-of-Decisions-Project/blob/master/Congruent.png?raw=true) 
+
+The figure(this is the link:https://github.com/freefrog1986/The-Science-of-Decisions-Project/blob/master/Congruent.png?raw=true) above shows the distribution of time spent in congruent condition, in which the blue line represents mean value of this sample.
+![](https://github.com/freefrog1986/The-Science-of-Decisions-Project/blob/master/Incongruent.png?raw=true) 
+
+The figure(this is the link: https://github.com/freefrog1986/The-Science-of-Decisions-Project/blob/master/Incongruent.png?raw=true) above shows the distribution of time spent in incongruent condition, in which the blue line represents mean value of this sample. It seems that both sample are more like Normal Distribution, and mean value of time spent in incongruent condition is greater than that in congruent condition.
 
 ###5. Statistical test
 As we know, the mean value of congruent sample is 14.05113, repersented by mu0. And the mean value of incongruent sample is 22.01592 repersented by mu1. 
